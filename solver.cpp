@@ -179,7 +179,7 @@ void analyzeSolution(const LinearSystem& system) {
     }
 }
 
-// Основная функция решения (ТЕПЕРЬ analyzeSolution объявлена выше)
+// Основная функция решения
 void solveJordanGauss(LinearSystem& system) {
     std::cout << "Начало решения методом Жордана-Гаусса..." << std::endl;
     printMatrix(system);
